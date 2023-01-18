@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+    pkgs.ruby
+    pkgs.bat
     pkgs.python3
   ];
   env = {
