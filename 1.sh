@@ -1,10 +1,4 @@
-echo "# ljflisp3" >> README.md
-git init
+#echo "I hate Git.Why not keeping div.py before overriding and your ugly confirm made me uncomfortable,drop dead Git and we will die one day." >> README.md
+#git init
 git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ljflisp/ljflisp3.git
-git push -u origin main
-git remote add origin https://github.com/ljflisp/ljflisp3.git
-git branch -M main
-git push -u origin main
+python 1.py
