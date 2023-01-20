@@ -59,4 +59,4 @@ f= [1,1]
 for i in range(2,365):
   n= f[i-1]+f[i-2]
   f.append(n)
-print(n)#第365位斐波拉契数列
+print(n)#第365位斐波拉契数
