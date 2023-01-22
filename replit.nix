@@ -1,8 +1,11 @@
 { pkgs }: {
   deps = [
+    pkgs.replit
+    pkgs.twelf
+    pkgs.util-linux.bin
     pkgs.ruby
     pkgs.bat
-    pkgs.python3
+    pkgs.python310
   ];
   env = {
     PYTHON_LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
