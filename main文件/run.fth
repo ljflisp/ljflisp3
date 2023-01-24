@@ -1,0 +1,2 @@
+include main.fth
+bye
