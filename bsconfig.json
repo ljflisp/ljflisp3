@@ -1,0 +1,24 @@
+{
+  "name":"reason-nodejs-template",
+  "version":"0.1.0",
+  "source":[
+   {
+    "dir":"ljflisp3",
+    "subdir":true
+   }
+     ],
+  "package-specs":
+    {
+    "moudle":"commonjs",
+    "in-source":true
+  },
+  "suffix":".bs.js",
+  "bs-dependenencies":[],
+  "bs-dev-dependencies":[],
+  "warnings": {
+    "number":"-45-44",
+    "error":"+101"
+  },
+  "namespace":true,
+  "rfmt":3
+}

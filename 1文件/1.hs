@@ -1,0 +1,1 @@
+putStr "Haskell"

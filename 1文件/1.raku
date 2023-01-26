@@ -21,8 +21,18 @@ sub levenshtein_distance ( Str $s, Str $t --> Int ) {
 
 my @a = [<kitten sitting>], [<saturday sunday>], [<rosettacode raisethysword>];
 
-for @a -> [$s, $t] {
-    say "levenshtein_distance('$s', '$t') == ", levenshtein_distance($s, $t);
-}
+#for @a -> [$s, $t] {
+   # say "levenshtein_distance('$s', '$t') == ", levenshtein_distance($s, $t);
+#}
 
-    
+#π
+#use v6;
+my $p = 3;
+my $s = 2;
+my $a = 1;
+for 1..150000 {
+   $p += $s*(4/($a*($a*($a*+3)+2)));
+   $a += 2;
+   $s =  -$s
+}
+say "pi= $pi";
